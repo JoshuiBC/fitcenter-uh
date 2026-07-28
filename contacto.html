@@ -1,1 +1,95 @@
 
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contacta a FitCenter UH o solicita una valoración nutricional.">
+  <title>Contacto | FitCenter UH</title>
+  <link rel="icon" href="img/logo-fitcenter-uh.png" type="image/png">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body data-root="." data-page="contacto">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div data-site-header></div>
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contacto</p>
+        <h1 class="display">Hablemos de<br>tu siguiente paso.</h1>
+        <p class="lead">Cuéntanos qué quieres lograr y te orientaremos hacia la rutina o el profesional adecuado.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">FitCenter UH</p>
+          <h2 class="display display--small">Estamos para orientarte.</h2>
+          <p class="body-copy">Puedes escribirnos directamente o completar el formulario. Respondemos dentro de nuestro horario de atención.</p>
+          <div class="contact-list">
+            <div class="contact-item"><small>WhatsApp</small><a href="https://wa.me/50600000000" target="_blank" rel="noopener">+506 0000-0000</a></div>
+            <div class="contact-item"><small>Correo</small><a href="mailto:hola@fitcenteruh.com">hola@fitcenteruh.com</a></div>
+            <div class="contact-item"><small>Horario</small><span>Lunes a viernes · 8:00 a. m.–6:00 p. m.</span></div>
+            <div class="contact-item"><small>Modalidad</small><span>Atención presencial y virtual</span></div>
+            <div class="contact-item"><small>Redes sociales</small><span>Instagram · Facebook · TikTok</span></div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" data-contact-form>
+          <h2>Envíanos tu consulta</h2>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" autocomplete="given-name" required>
+            </div>
+            <div class="form-field">
+              <label for="apellido">Apellido</label>
+              <input id="apellido" name="apellido" autocomplete="family-name" required>
+            </div>
+            <div class="form-field">
+              <label for="correo">Correo electrónico</label>
+              <input id="correo" name="correo" type="email" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label for="telefono">Teléfono</label>
+              <input id="telefono" name="telefono" type="tel" autocomplete="tel">
+            </div>
+            <div class="form-field form-field--full">
+              <label for="tema">¿En qué podemos ayudarte?</label>
+              <select id="tema" name="tema" required>
+                <option value="">Selecciona una opción</option>
+                <option>Elegir una rutina</option>
+                <option>Valoración con Daniela Mora</option>
+                <option>Valoración con Andrés Quesada</option>
+                <option>Consulta general</option>
+              </select>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos brevemente tu objetivo y disponibilidad." required></textarea>
+            </div>
+            <div class="form-field form-field--full">
+              <button class="button button--light" type="submit">Enviar consulta</button>
+            </div>
+          </div>
+          <div class="form-message" data-form-message tabindex="-1" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section--white" id="privacidad">
+      <div class="container split reveal">
+        <div><p class="eyebrow">Privacidad</p><h2 class="display display--small">Tu información se respeta.</h2></div>
+        <div class="body-copy">
+          <p>Los datos enviados mediante este formulario se utilizarán únicamente para responder tu consulta y coordinar el servicio solicitado.</p>
+          <p>No compartiremos tu información con terceros ajenos al proceso de atención. Evita incluir información médica sensible en este primer contacto.</p>
+          <p class="notice">Los medios de contacto mostrados son datos de demostración y deben reemplazarse antes de publicar el sitio.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+</body>
+</html>
